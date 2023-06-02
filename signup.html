@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .middle {
+        color: rgb(252, 111, 41);
+        font-family: "Times New Roman", Times, serif;
+      }
+      .after {
+        border: 1px solid black;
+        width: 30px;
+        content: "";
+        bottom: -22px;
+        position: relative;
+        left: 0;
+      }
+      .image {
+        width: 100px;
+        height: 105px;
+      }
+      .b {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 58px;
+        right: 0;
+        z-index: -1;
+        width:10cm;
+      }
+      .c {
+        font-weight: 900;
+        font-size: xx-large;
+      }
+      .d {
+        height: 130px;
+        position: relative;
+        padding-top: 30px;
+        margin: bottom 69px;
+        z-index: index 3;
+      }
+      .e {
+        border: 4px solid #d4d5d9;
+        padding: 0;
+        display: block;
+        position: relative;
+        transform: translateZ(0);
+      }
+      .form1 {
+        border: 1px solid #d4d5d9;
+        padding: 0;
+        display: block;
+        position: relative;
+        transform: translateZ(0);
+      }
+      .boton{
+        margin-top: 30px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #5d8ed5;
+        cursor: pointer;
+      }
+      button{
+        padding: 0;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        text-align: left;
+      }
+      .pointer{
+        position:sticky;
+        clear: both;
+      }
+      .anchor{
+        width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    padding: 0 2rem;
+    color: #fc8019;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #fc8019;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+    text-transform: uppercase;
+      }
+      .last{
+        font-size: 12px;
+        color: #686b78;
+        margin-top: 6px;
+        font-weight: 500;
+      }
+      .last1{
+        color: black;
+      }
+      .first{
+       position:relative;
+      }
+      .first1{
+        padding-left: 40px;
+    padding-right: 132px;
+    width: 534px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="first1">
+        <div class="first">
+            <div class="d">
+                <span class="c">&times;</span>
+                <h1>Sign up</h1>
+                <div>
+                  or
+                  <a class="middle">login to your account</a>
+                </div>
+                <div class="b">
+                  <div></div>
+                  <div>
+                    <img
+                      class="image"
+                      src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Image-login_btpq7r"
+                      alt=""
+                    />
+                  </div>
+               </div>
+          
+               <form action="/submit-form" method="post">
+              <div class="z">
+                  <div class="e">
+                    <input
+                      type="tel"
+                      name="mobile"
+                      id="mobile"
+                      tabindex="1"
+                      maxlength="10"
+                      autocomplete="off"
+                      placeholder="Phone no";
+                    />
+                    <div class="f"></div>
+                  </div>
+                  <div class="e">
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      tabindex="1"
+                      maxlength="10"
+                      autocomplete="off"
+                      placeholder=" Name";
+                    />
+                    <div class="f"></div>
+                  </div>
+                  <div class="e">
+                      <input
+                      type="email"
+                      name="email"
+                      id="Email"
+                      tabindex="3"
+                      maxlength="10"
+                      autocomplete="off"
+                      placeholder="Email";
+                    />
+                    <div class="f"></div>
+                  </div>
+              </div>
+              <button class="boton">
+                  Have a referral code?
+              </button>
+              <div class="pointer">
+                  <a class="anchor">
+                      <input type="submit" style="display: none;">CONTINUE
+                  </a>
+              </div>
+              <div class="last">By creating an account, I accept the
+                <a href="www.termandcondition.com" class="last1">term and condition</a> &
+               <a class="last1" href="www.privacypolicy.com"> privacy policy</a>
+              </div>
+              </form>
+        </div>
+    </div>
+  </body>
+</html>

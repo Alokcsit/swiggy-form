@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <style>
+      div.xsign {
+        font-weight: 900;
+        font-size: xx-large;
+        background-color: aqua;
+      }
+      div.login {
+        color: solid black;
+        background-color: rgb(129, 209, 209);
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+      .line {
+        float: left;
+        background-color: rgb(2, 42, 29);
+        position: static;
+        left: 0px;
+        width: 50px;
+        height: 1px;
+        color: 1px solid#000;
+        margin-bottom: 0%;
+        margin-bottom: 0%;
+      }
+      .image {
+        height: 100px;
+        width: 105px;
+      }
+      .size {
+        color: solid black;
+      }
+      .create1 {
+        margin-top: 10px;
+        position: relative;
+      }
+      .create2 {
+        font-weight: 500;
+        cursor: pointer;
+        color: #fc8019;
+      }
+      .small-rec {
+        float: left;
+        width: 50px;
+        height: 2px;
+        background: #000;
+      }
+      .flx {
+        display: flex;
+        justify-content: space-between;
+      }
+      .formm {
+        display: block;
+        position: static;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="xsign"><span>&times;</span></div>
+    <div class="login"><h1>Login</h1></div>
+    <div class="flx">
+      <div class="line"></div>
+      <div class="size">
+        <img
+          class="image"
+          src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Image-login_btpq7r"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="create1">or <a class="create2">create an account</a></div>
+    <div class="small-rec"></div>
+
+    <form action="/submit-form" method="post">
+      <div class="formm">
+        <input type="text" placeholder="Phone no" class="" />
+      </div>
+    </form>
+  </body>
+</html>
